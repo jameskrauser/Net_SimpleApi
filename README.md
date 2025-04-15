@@ -1,5 +1,7 @@
 How to create simple web api server for test and don't need create DB table
 
+https://medium.com/p/1f7c4bca96bc/edit
+
 
 
 sometimes you will use free api for your test project in your laptop, but your must find the CORS problem and you dont want create the db table.
