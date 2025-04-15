@@ -1,7 +1,5 @@
 How to create simple web api server for test and don't need create DB table
-
-Good for reading...
-[https://medium.com/p/1f7c4bca96bc/edit](https://jameskrauserlee.medium.com/how-to-create-simple-web-api-server-for-test-and-dont-need-create-db-table-1f7c4bca96bc)
+[Good for reading...](https://jameskrauserlee.medium.com/how-to-create-simple-web-api-server-for-test-and-dont-need-create-db-table-1f7c4bca96bc)
 
 
 
