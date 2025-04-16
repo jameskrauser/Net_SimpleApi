@@ -1,12 +1,54 @@
 [
   {
     "ContainingType": "TrainAppApi.Controllers.TrainAppController",
+    "Method": "AddUpdatePassengers",
+    "RelativePath": "api/TrainApp/AddUpdatePassengers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "passenger",
+        "Type": "TrainAppApi.Models.Passenger",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainAppApi.Controllers.TrainAppController",
     "Method": "GetAllStations",
     "RelativePath": "api/TrainApp/GetAllStations",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainAppApi.Controllers.TrainAppController",
+    "Method": "GetTrainsBetweenStations",
+    "RelativePath": "api/TrainApp/GetTrainsBetweenStations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departureStationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "arrivalStationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "departureDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

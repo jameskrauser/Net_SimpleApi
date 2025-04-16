@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4D6E61B-B9F5-49ED-8F2C-C6C432C80C39}|WebApplication1\\WebApplication1.csproj|c:\\users\\matt\\desktop\\angular_train\\proxyapinet2\\simplewebapi\\webapplication1\\controllers\\trainappproxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4D6E61B-B9F5-49ED-8F2C-C6C432C80C39}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\trainappproxycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D6E61B-B9F5-49ED-8F2C-C6C432C80C39}|WebApplication1\\WebApplication1.csproj|c:\\users\\matt\\desktop\\angular_train\\proxyapinet2\\simplewebapi\\webapplication1\\models\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D6E61B-B9F5-49ED-8F2C-C6C432C80C39}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +38,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Station.cs",
+              "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\Angular_Train\\ProxyApiNet2\\SimpleWebApi\\WebApplication1\\Models\\Station.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Station.cs",
+              "ToolTip": "C:\\Users\\Matt\\Desktop\\Angular_Train\\ProxyApiNet2\\SimpleWebApi\\WebApplication1\\Models\\Station.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Station.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T09:27:09.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TrainAppProxyController.cs",
               "DocumentMoniker": "C:\\Users\\Matt\\Desktop\\Angular_Train\\ProxyApiNet2\\SimpleWebApi\\WebApplication1\\Controllers\\TrainAppProxyController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TrainAppProxyController.cs",
               "ToolTip": "C:\\Users\\Matt\\Desktop\\Angular_Train\\ProxyApiNet2\\SimpleWebApi\\WebApplication1\\Controllers\\TrainAppProxyController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TrainAppProxyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAMwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T05:20:59.154Z",
               "EditorCaption": ""
