@@ -32,4 +32,14 @@
         public T Data { get; set; }
     }
 
+
+
+
+    //Login 
+    public class LoginRequest
+    {
+        public string Phone { get; set; }
+        public string Password { get; set; }
+    }
+
 }

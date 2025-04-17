@@ -11,7 +11,7 @@ namespace TrainAppApi.Controllers
     {
 
         private static List<Passenger> _passengers = new List<Passenger>();
-
+        // User Register
         [HttpPost("AddUpdatePassengers")]
         public IActionResult AddUpdatePassengers([FromBody] Passenger passenger)
         {
@@ -57,6 +57,40 @@ namespace TrainAppApi.Controllers
                 Message = "",
                 Result = true,
                 Data = passenger
+            });
+        }
+
+        // User Login check
+        [HttpPost("Login")]
+        public IActionResult Login([FromBody] LoginRequest request)
+        {
+            if (request == null || string.IsNullOrWhiteSpace(request.Phone) || string.IsNullOrWhiteSpace(request.Password))
+            {
+                return BadRequest(new ApiResponse<string>
+                {
+                    Result = false,
+                    Message = "Phone and password are required",
+                    Data = null
+                });
+            }
+
+            var passenger = _passengers.FirstOrDefault(p => p.Phone == request.Phone && p.Password == request.Password);
+
+            if (passenger == null)
+            {
+                return Unauthorized(new ApiResponse<string>
+                {
+                    Result = false,
+                    Message = "Login fail, Invalid credentials",
+                    Data = null
+                });
+            }
+
+            return Ok(new ApiResponse<string>
+            {
+                Result = true,
+                Message = "Login success",
+                Data = passenger.FirstName
             });
         }
 
